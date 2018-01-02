@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tset.buycoinproject.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#bd1cf2">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/imageView_coin_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/coin"
+                android:layout_marginRight="4dp"/>
+            <TextView
+                android:id="@+id/txt_coin_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10"
+                android:textSize="20dp"
+                android:layout_marginLeft="4dp"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_marginBottom="56dp"
+        android:orientation="vertical">
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="مرحله 1"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"
+                    android:padding="2dp"/>
+
+
+            </LinearLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="مرحله 2"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"
+                    android:padding="2dp"/>
+                <TextView
+                    android:id="@+id/txt_show_text_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="برای ورود به مرحله بعد نیاز به سکه دارید"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:padding="2dp"/>
+
+            </LinearLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="مرحله 3"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"
+                    android:padding="2dp"/>
+                <TextView
+                    android:id="@+id/txt_show_text_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="برای ورود به مرحله بعد نیاز به سکه دارید"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:padding="2dp"/>
+
+            </LinearLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="مرحله 4"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"
+                    android:padding="2dp"/>
+                <TextView
+                    android:id="@+id/txt_show_text_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="برای ورود به مرحله بعد نیاز به سکه دارید"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:padding="2dp"/>
+
+            </LinearLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="مرحله 5"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"
+                    android:padding="2dp"/>
+                <TextView
+                    android:id="@+id/txt_show_text_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="برای ورود به مرحله بعد نیاز به سکه دارید"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:padding="2dp"/>
+
+            </LinearLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    
+    
+    
+    
+    <Button
+        android:id="@+id/btn_buy_coin"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text=" خرید سکه"
+        android:textSize="20dp"
+        android:background="@drawable/background_button"
+        android:layout_alignParentBottom="true"/>
+
+
+
+</RelativeLayout>

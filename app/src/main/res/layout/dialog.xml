@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <Button
+        android:id="@+id/btn_dialog_twenty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="خرید 20 سکه "
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/drawable_background_dialog_button" />
+    <Button
+        android:id="@+id/btn_dialog_thirty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="خرید 30 سکه "
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/drawable_background_dialog_button" />
+    <Button
+        android:id="@+id/btn_dialog_forty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="خرید 40 سکه "
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/drawable_background_dialog_button" />
+
+</LinearLayout>
